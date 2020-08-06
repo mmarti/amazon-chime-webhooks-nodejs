@@ -66,7 +66,7 @@ console.log(result);
 
 - `message` `<string>`
 - `options` `<object>`
-  - `markdown` `<boolean>` - Send message using markdown syntax.
+  - `markdown` `<boolean>` - Use markdown syntax.
 - Returns: `<Promise<object>>`
   - `messageId` `<string>`
   - `roomId` `<string>`
