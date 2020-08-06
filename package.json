@@ -1,16 +1,13 @@
 {
   "name": "chime",
-  "version": "1.0.3",
-  "author": "Michael Marti <mcmarti@amazon.com>",
-  "description": "Send Amazon Chime messages using webhooks.",
+  "version": "1.0.4",
+  "author": "Michael Marti",
+  "description": "Send messages using webhooks for Amazon Chime.",
   "license": "Apache-2.0",
   "engines": {
     "node": ">= 10.x"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/awslabs/amazon-chime-webhooks-nodejs.git"
-  },
+  "repository": "github:mmarti/chime",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "files": [

@@ -1,10 +1,10 @@
-# Amazon Chime
+# chime
 
-Send Amazon Chime messages using webhooks.
+Send messages using webhooks for Amazon Chime.
 
 - [Amazon Chime](https://aws.amazon.com/chime)
+- [Adding webhooks to chat rooms](https://docs.aws.amazon.com/chime/latest/ug/webhooks.html)
 - [Webhooks for Amazon Chime](https://docs.aws.amazon.com/chime/latest/dg/webhooks.html)
-- [Adding Webhooks to Chat Rooms](https://docs.aws.amazon.com/chime/latest/ug/webhooks.html)
 
 ```javascript
 const Chime = require('chime');
@@ -28,7 +28,7 @@ const Chime = require('chime');
 
 - `url` `<string>` - Webhook URL
 - `options` `<object>` Overridden by `room.sendMessage()` options.
-  - `markdown` `<boolean>` - Send message using markdown syntax. **Default:** `true`
+  - `markdown` `<boolean>` - Use markdown syntax. **Default:** `true`
 - Returns: `<Chime>`
 
 ```javascript
@@ -42,7 +42,7 @@ const room = new Chime('<WEBHOOK_URL>');
 - `message` `<string>`
 - `url` `<string>` - Webhook URL
 - `options` `<object>`
-  - `markdown` `<boolean>` - Send message using markdown syntax. **Default:** `true`
+  - `markdown` `<boolean>` - Use markdown syntax. **Default:** `true`
 - Returns: `<Promise<object>>`
   - `messageId` `<string>`
   - `roomId` `<string>`
@@ -83,11 +83,3 @@ console.log(result);
 //   roomId: '3a5be182-197c-4b48-8efe-0c6d3a0f24b1'
 // }
 ```
-
-## Contributions
-
-See [CONTRIBUTING](CONTRIBUTING.md) for more information.
-
-## License
-
-This project is licensed under the [Apache-2.0 License](LICENSE).
