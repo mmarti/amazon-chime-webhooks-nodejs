@@ -1,5 +1,10 @@
 # chime
 
+[![npm version](https://img.shields.io/npm/v/chime?style=flat-square)](https://npmjs.com/package/chime)
+![size](https://img.shields.io/bundlephobia/min/chime?style=flat-square)
+[![open issues](https://img.shields.io/github/issues-raw/mmarti/chime?style=flat-square)](https://github.com/mmarti/chime/issues)
+[![license](https://img.shields.io/npm/l/chime?style=flat-square)](https://github.com/mmarti/chime/blob/master/LICENSE)
+
 Send messages using webhooks for Amazon Chime.
 
 - [Amazon Chime](https://aws.amazon.com/chime)
